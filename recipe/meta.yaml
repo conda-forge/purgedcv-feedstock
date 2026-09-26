@@ -1,5 +1,5 @@
 {% set name = "purgedcv" %}
-{% set version = "0.1.6" %}
+{% set version = "0.1.7" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c673f951cf0c4f28d7ac1943f262e9c9da8dab8614fe5bf53dc8b46e6ea29129
+  sha256: 015f662d1421e74faec591c073c3d3d37423e171b33c9a0c38dd22f1d8be3cd4
 
 build:
   noarch: python
